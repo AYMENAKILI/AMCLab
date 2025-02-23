@@ -1,0 +1,83 @@
+.card2-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.left-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.right-section {
+  flex: 2;
+  padding: 20px;
+}
+
+.cas-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cas-table th,
+.cas-table td {
+  border: 3px solid #0c3b8b;
+  padding: 8px;
+  font-family: 'Inter', sans-serif;
+}
+
+.cas-table th {
+  background-color: rgb(33, 171, 173);
+  text-align: left;
+  color: white;
+  
+}
+
+.left-section button{
+  height: 50px;
+  width: 150px;
+  background-color: #21ABAD;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.left-section button:hover{
+  background-color: #1c8d8f;
+}
+
+.left-section h1{
+  font-family: 'Inter', sans-serif;
+  color: #F0F0F0;
+}
+
+.left-section p{
+  color: #F0F0F0;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+}
+
+.card {
+  background-color: #0c3b8b;
+  width: 500px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Adjust as needed */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 15px 25px rgba(0, 0, 0, 0.2); /* Add a stronger box shadow */
+}
+
+
+
+.card0{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

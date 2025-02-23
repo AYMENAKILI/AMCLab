@@ -1,0 +1,100 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.div1-card1{
+  background-color: #F0F0F0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.img1{
+  height: 65px;
+  margin: 13px;
+ 
+}
+
+.img2{
+  height: 35px;
+  text-align: center;
+  margin: 20px;
+}
+
+.appName{
+  color: #0c3b8b;
+  font-size: 2em;
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+.div0{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.div2-card1{
+  background-color: #0c3b8b;
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  align-items: center;
+}
+
+.div2-1{
+  background-color: #D7D7D7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.div2-1-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  margin: 20px;
+  height: 35px;
+  border-radius: 8px;
+}
+
+label{
+  font-family: 'Inter', sans-serif;
+}
+
+.div3-card1{
+  background-color: #0c3b8b;
+  height: 168px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div3-card1 button{
+  height: 50px;
+  width: 150px;
+  background-color: #21ABAD;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.div3-card1 button:hover{
+  background-color: #1c8d8f;
+}
